@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Asap", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #838383;
+}
+.verification-container {
+  max-width: 2000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.card-header p {
+  font-size: 40px;
+  color: #62abf0;
+}
+.star-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #000;
+  z-index: 10;
+}
+.card-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.card-title {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.verification-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  border-radius: 15px;
+  padding: 0 30px 50px;
+  max-height: 400px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.requirements {
+  margin-bottom: 30px;
+}
+.requirements-title {
+  text-align: right;
+  margin-bottom: 24px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.requirements-list {
+  list-style: none;
+  text-align: right;
+}
+.requirement-item {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.turnover {
+  margin-top: auto;
+}
+.active {
+  background-color: #40e297;
+  color: #fff;
+}
+.active > div > p {
+  color: #fff;
+}
+/* .active > div > div {
+  display: block;
+} */
