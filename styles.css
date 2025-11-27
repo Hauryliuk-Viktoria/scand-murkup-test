@@ -13,7 +13,6 @@ body {
   color: #838383;
 }
 .verification-container {
-  max-width: 2000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -88,3 +87,8 @@ body {
 /* .active > div > div {
   display: block;
 } */
+@media (max-width: 768px) {
+  .verification-container {
+    grid-template-columns: 1fr;
+  }
+}
